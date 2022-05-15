@@ -15,18 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="DpiScaling.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="WindowsGraphicsCapture.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="WindowsGraphicsCapture.h">
+    <ClInclude Include="DpiScaling.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

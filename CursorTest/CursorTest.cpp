@@ -122,7 +122,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.cbWndExtra     = 0;
     wcex.hInstance      = hInstance;
     wcex.hIcon          = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_CURSORTEST));
-    wcex.hCursor        = LoadCursor(nullptr, IDC_ARROW);
+    wcex.hCursor        = NULL/*LoadCursor(nullptr, IDC_ARROW)*/; // https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setcursor#remarks
     wcex.hbrBackground  = (HBRUSH)(COLOR_WINDOW+1);
     wcex.lpszMenuName   = MAKEINTRESOURCEW(IDC_CURSORTEST);
     wcex.lpszClassName  = szWindowClass;
