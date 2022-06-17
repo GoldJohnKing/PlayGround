@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsVersionDetector", "W
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPUUsage", "CPUUsage\CPUUsage.vcxproj", "{37182D17-738C-4435-A594-246B0C7137D2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SandboxiePerformanceTest", "SandboxiePerformanceTest", "{111C0D26-95BD-4DA4-B2A8-315D77C0A869}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -226,6 +228,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F3DE355-CDAC-4A93-8DAC-0839667EF104} = {111C0D26-95BD-4DA4-B2A8-315D77C0A869}
+		{A26478E9-E952-440A-A834-00A0CEDCB654} = {111C0D26-95BD-4DA4-B2A8-315D77C0A869}
+		{DD05ABD3-1460-48BC-9C11-17BE27E03235} = {111C0D26-95BD-4DA4-B2A8-315D77C0A869}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D956B51-6F47-47EF-8B5E-5A0C99F0CDEB}

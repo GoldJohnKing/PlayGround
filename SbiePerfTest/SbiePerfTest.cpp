@@ -43,7 +43,7 @@ void TestCreateProcess()
 void TestOpenProcess()
 {
     int pid;
-    cout << "Insert Pid:";
+    cout << "Launch a program, then insert its pid: ";
     cin >> pid;
     cout << endl;
 
